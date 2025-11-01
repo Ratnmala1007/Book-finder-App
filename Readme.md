@@ -41,3 +41,58 @@ This project is created as part of a frontend coding challenge.
 ```bash
 git clone https://github.com/Ratnmala1007/Book-finder-App.git
 cd book-finder-app
+
+###2️⃣ Install Dependencies
+npm install
+
+
+###3️⃣ Run the App
+npm start
+Your app will start on http://localhost:3000/
+
+###🌐 API Used
+
+Open Library API:
+Endpoint:
+https://openlibrary.org/search.json?title=<book_name>
+
+
+
+###📁 Folder Structure
+book-finder-app/
+BOOK-FINDER-APP/
+├── src/
+│   ├── App.jsx
+│   ├── BookCard.jsx
+│   ├── index.css
+│   └── ...
+├── package.json
+├── index.html
+├── vite.config.ts
+├── README.md   ✅  
+
+
+🖼️ App Preview
+Type a book name (e.g., "Harry Potter")
+
+Press Search
+
+View list of matching books with cover image, author, and published year.
+
+🌟 Future Enhancements
+Add pagination for results
+
+Add detailed view for each book
+
+Add "Favorites" section using local storage
+
+🧑‍💻 Author
+Ratnamala Shendge
+Java Full Stack Developer
+
+🔗 GitHub | 💼 LinkedIn
+
+📜 License
+This project is licensed under the MIT License.
+
+---
