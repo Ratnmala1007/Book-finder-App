@@ -1,98 +1,161 @@
 # 📚 Book Finder App
 
-A simple React application that allows users to search for books by title using the **Open Library API**.  
-This project is created as part of a frontend coding challenge.
+A responsive React application that allows users to search for books by title using the **Open Library API**.
+
+This project was built to practice:
+
+* React fundamentals
+* API integration
+* Component-based UI development
+* Frontend deployment using Vercel
 
 ---
 
-## 🚀 Features
+# 🚀 Live Demo
 
-- 🔍 Search books by title
-- 🖼️ Displays book cover, title, author, and publication year
-- ⚡ Uses **Open Library API**
-- 🎨 Styled with **Tailwind CSS**
-- 📱 Responsive and clean UI
+🔗 Live Project:https://book-finder-p9jl.vercel.app/
 
----
+# ✨ Features
 
-## 🧑‍💻 User Persona
-
-**Name:** Alex  
-**Occupation:** College Student  
-**Need:** Alex wants to search books easily, view their authors, and publication years to choose books for study and leisure.
+* 🔍 Search books by title
+* 🖼️ Display book cover images
+* ✍️ Show author names
+* 📅 Display publication year
+* ⚡ Real-time API data fetching
+* 📱 Responsive UI design
+* 🎨 Clean interface using Tailwind CSS
 
 ---
 
-## 🏗️ Tech Stack
 
-| Category | Technology |
-|-----------|-------------|
-| **Framework** | React.js |
-| **Styling** | Tailwind CSS |
-| **Data Source** | OpenLibrary API |
-| **State Management** | React useState Hook |
-| **Deployment** | CodeSandbox / GitHub Pages |
+
+wants a simple platform to search books quickly and view:
+
+* author details
+* publication year
+* book cover previews
+
+to help select books for study and personal reading.
 
 ---
 
-## ⚙️ Installation & Setup
+# 🛠️ Tech Stack
 
-### 1️⃣ Clone the Repository
+| Category         | Technology          |
+| ---------------- | ------------------- |
+| Frontend         | React.js            |
+| Build Tool       | Vite                |
+| Styling          | Tailwind CSS        |
+| API              | Open Library API    |
+| State Management | React useState Hook |
+| Deployment       | Vercel              |
+| Version Control  | Git & GitHub        |
+
+---
+
+# 🌐 API Used
+
+### Open Library API
+
+Endpoint:
+
+```bash
+https://openlibrary.org/search.json?title=<book_name>
+```
+
+Official Documentation:
+
+https://openlibrary.org/developers/api
+
+---
+
+# ⚙️ Installation & Setup
+
+## 1️⃣ Clone Repository
+
 ```bash
 git clone https://github.com/Ratnmala1007/Book-finder-App.git
-cd book-finder-app
+```
 
-###2️⃣ Install Dependencies
+## 2️⃣ Navigate to Project Folder
+
+```bash
+cd Book-finder-App
+```
+
+## 3️⃣ Install Dependencies
+
+```bash
 npm install
+```
 
+## 4️⃣ Run Development Server
 
-###3️⃣ Run the App
-npm start
-Your app will start on http://localhost:3000/
+```bash
+npm run dev
+```
 
-###🌐 API Used
+Application will run on:
 
-Open Library API:
-Endpoint:
-https://openlibrary.org/search.json?title=<book_name>
+```bash
+http://localhost:5173
+```
 
+---
 
+# 📁 Project Structure
 
-###📁 Folder Structure
-book-finder-app/
-BOOK-FINDER-APP/
+```bash
+Book-finder-App/
 ├── src/
 │   ├── App.jsx
 │   ├── BookCard.jsx
 │   ├── index.css
 │   └── ...
+├── public/
 ├── package.json
-├── index.html
 ├── vite.config.ts
-├── README.md   ✅  
-
-
-🖼️ App Preview
-Type a book name (e.g., "Harry Potter")
-
-Press Search
-
-View list of matching books with cover image, author, and published year.
-
-🌟 Future Enhancements
-Add pagination for results
-
-Add detailed view for each book
-
-Add "Favorites" section using local storage
-
-🧑‍💻 Author
-Ratnamala Shendge
-Java Full Stack Developer
-
-🔗 GitHub | 💼 LinkedIn
-
-📜 License
-This project is licensed under the MIT License.
+├── index.html
+└── README.md
+```
 
 ---
+
+# 🖼️ Application Preview
+
+### Steps to Use
+
+1. Enter a book name (Example: Harry Potter)
+2. Click Search
+3. View matching books with:
+
+   * Cover image
+   * Author name
+   * Published year
+
+---
+
+# 🌟 Future Enhancements
+
+* Add pagination for search results
+* Add detailed book information page
+* Add Favorites feature using Local Storage
+* Add dark mode support
+* Improve loading and error handling
+
+---
+
+# 🧑‍💻 Author
+
+### Ratnamala Shendge
+
+Java Full Stack Developer
+
+* GitHub: https://github.com/Ratnmala1007
+* LinkedIn:https://www.linkedin.com/in/ratnmala-r-a5b1bb195/
+
+---
+
+# 📜 License
+
+This project is licensed under the MIT License.
